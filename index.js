@@ -184,7 +184,7 @@ setInterval(() => {
   gpsText.innerHTML = Math.round(gps);
   bgm.play()
   
-  if (parsedGem >= 1_000_000) {
+  if (parsedGem >= 1_000_000_000_000) {
     prestigeButton.style.display = "block"
   } else {
     prestigeButton.style.display = "none"
