@@ -1,9 +1,9 @@
 export const defaultUpgradeValues = [
     {name: 'clicker', image: './assets/clicker-white.png', cost: 10, increase: 1, type: "upgrade"},
-    {name: 'pickaxe', image: './assets/pickaxe.png', cost: 60, increase: 3, type: "upgrade"},
-    {name: 'miner', image: './assets/miner.png', cost: 480, increase: 25, type: "upgrade"},
-    {name: 'factory', image: './assets/factory.png', cost: 4240, increase: 230, type: "upgrade"},
-    {name: 'potion', image: './assets/potion.png', cost: 52800, increase: 4500, type: "upgrade"},
+    {name: 'pickaxe', image: './assets/pickaxe.png', cost: 100, increase: 3, type: "upgrade"},
+    {name: 'miner', image: './assets/miner.png', cost: 550, increase: 25, type: "upgrade"},
+    {name: 'factory', image: './assets/factory.png', cost: 5000, increase: 230, type: "upgrade"},
+    {name: 'potion', image: './assets/potion.png', cost: 60000, increase: 4500, type: "upgrade"},
     {name: 'Nuke', image: './assets/Nuke.png', cost: 100000, increase: 7000, type: "upgrade"}
   ]
   
