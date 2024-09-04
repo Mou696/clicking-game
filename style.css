@@ -32,7 +32,7 @@ body {
 .right-navbar>div {
     width: 140px;
     height: 40px;
-    background-color: red;
+    background-color: rgb(12, 206, 54);
     text-align: center;
     padding-top: 15px;
 }
@@ -98,7 +98,7 @@ body {
 }
 
 .upgrade-img {
-    width: 70px;
+    width: 80px;
 }
 
 .gem-img-container {

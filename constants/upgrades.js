@@ -107,6 +107,17 @@ export const upgrades = [
     gemMultiplier: 1.045,
     costMultiplier: 1.096,
   },
+  {
+    name: 'Nuke',
+    cost: document.querySelector(".Nuke-cost"),
+    parsedCost: parseFloat(document.querySelector(".Nuke-cost").innerHTML),
+    increase: document.querySelector(".Nuke-increase"),
+    parsedIncrease: parseFloat(document.querySelector(".Nuke-increase").innerHTML),
+    level: document.querySelector(".Nuke-level"),
+    power: 0,
+    gemMultiplier: 1.090,
+    costMultiplier: 1.230,
+  }
 ]
 
 export const powerUpIntervals = [10, 20, 30, 50, 70, 100, 150, 200, 250, 300]
