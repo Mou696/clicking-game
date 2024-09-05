@@ -1,6 +1,5 @@
-
-import { powerUpIntervals, upgrades } from "upgrades.js";
-import { defaultUpgradeValues } from "defaultValues.js";
+import { powerUpIntervals, upgrades } from "./constants/upgrades.js";
+import { defaultUpgradeValues } from "./constants/defaultValues.js";
 
 let gem = document.querySelector(".gem-cost");
 let parsedGem = parseFloat(gem.innerHTML);
@@ -20,11 +19,11 @@ let gpc = 1;
 
 let gps = 0;
 
-const bgm = new Audio('bgm.mp3');
+const bgm = new Audio('/assets/audio/bgm.mp3');
 bgm.volume = 0;
 
 function incrementGem(event) {
-  const clickingSound = new Audio('click.wav');
+  const clickingSound = new Audio('/assets/audio/click.wav');
   clickingSound.play();
 
   gem.innerHTML = Math.round(parsedGem += gpc);
@@ -58,7 +57,7 @@ function buyUpgrade(upgrade) {
   const nextLevelP = document.getElementById(`${mu.name}-next-p`);
 
   if (parsedGem >= mu.parsedCost) {
-    const upgradeSound = new Audio('upgrade.mp3');
+    const upgradeSound = new Audio('/assets/audio/upgrade.mp3');
     upgradeSound.volume = 0.1;
     upgradeSound.play();
 
@@ -202,4 +201,3 @@ window.buyUpgrade = buyUpgrade;
 window.save = save;
 window.load = load;
 window.prestige = prestige;
-
