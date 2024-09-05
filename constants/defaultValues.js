@@ -1,4 +1,24 @@
 export const defaultUpgradeValues = [
+    {name: 'clicker', image: 'clicker-white.png', cost: 10, increase: 1, type: "upgrade"},
+    {name: 'pickaxe', image: 'pickaxe.png', cost: 100, increase: 3, type: "upgrade"},
+    {name: 'miner', image: 'miner.png', cost: 550, increase: 25, type: "upgrade"},
+    {name: 'factory', image: 'factory.png', cost: 5000, increase: 230, type: "upgrade"},
+    {name: 'potion', image: 'potion.png', cost: 60000, increase: 4500, type: "upgrade"},
+    {name: 'Nuke', image: 'Nuke.png', cost: 100000, increase: 7000, type: "upgrade"}
+  ]
+  
+  
+  export const defaultArtifactValues = [
+    {
+      name: "Artifact 1",
+      description: "Permanently increase all gems gained by x amount",
+      image: "",
+      type: "artifact"
+    }
+  ]
+
+/*
+export const defaultUpgradeValues = [
     {name: 'clicker', image: './assets/clicker-white.png', cost: 10, increase: 1, type: "upgrade"},
     {name: 'pickaxe', image: './assets/pickaxe.png', cost: 100, increase: 3, type: "upgrade"},
     {name: 'miner', image: './assets/miner.png', cost: 550, increase: 25, type: "upgrade"},
@@ -33,4 +53,4 @@ export const defaultUpgradeValues = [
       image: "",
       type: "artifact"
     }
-  ]
+  ]*/
