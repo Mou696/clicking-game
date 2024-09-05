@@ -1,3 +1,4 @@
+
 import { powerUpIntervals, upgrades } from "./constants/upgrades.js";
 import { defaultUpgradeValues } from "./constants/defaultValues.js";
 
@@ -201,3 +202,4 @@ window.buyUpgrade = buyUpgrade;
 window.save = save;
 window.load = load;
 window.prestige = prestige;
+
